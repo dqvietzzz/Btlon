@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100vh;
+
+}
+.div{
+    display: flex;
+    height: 100%;
+    
+}
+
+.logo{
+    padding: 10px;
+}
+
+.div1{
+    width: 17%;
+    height: 100%;
+    padding-right: 10px;
+    display: block;
+    background-color: #f0f2f5;
+}
+
+.div2{
+    width: 83%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background-color: #1161d8;
+}
+
+.header-right{
+    display: flex;
+    margin: 10px;
+    float: left;
+}
+
+.header-left{
+    display: flex;
+    float: right;
+}
+
+.user-icon{
+    display: flex;
+    padding: 10px;
+}
+
+.menu-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 99;
+    width: 115px;
+}
+
+.menu-icon ul li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-icon ul li:hover {
+    background-color: #e4e0e0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family:Arial;
+    text-decoration: none;
+    color: #000000;
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.AlertButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 300px;
+    line-height: 16px;
+    margin: 10px;
+}
+
+/* ----------MENU----------- */
+.menu ul li{
+    z-index: 99;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu ul li {
+    position: relative;
+    padding: 20px;
+    background-color: #f0f2f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu ul li:hover {
+    background-color: #ddd;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.menu ul ul li {
+    width: auto;
+    white-space: nowrap;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+/* ----------BODY----------- */
+
+.body{
+    height: 90%;
+    width: 100%;
+    display: block;
+    z-index: -1;
+}
+
+.timkiem{
+    margin: 20px;
+    width: 40%;
+    display: inline-block;
+    height: 50px;
+}
+.timkiem form{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+
+    display: flex; /* Sử dụng display: flex để căn lề nội dung vào trung tâm */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+}
+.timkiem form button{
+    
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: white;
+}
+.timkiem form button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+.timkiem form button img{
+    width: 100%;
+    height:100%;
+
+}
+.timkiem form input{
+    
+    width: 70%;
+    border: none;
+}
+.timkiem form input:focus {
+    outline: none; /* Loại bỏ đường viền mặc định khi focus */
+    border: none; /* Loại bỏ border khi focus */
+}
+
+/* ----------------- */
+
+button[class="sua-xoa"] {
+    border: none; 
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    padding: 0;
+    }
+button[class="sua-xoa"]:hover {
+    color: red;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+}
+.cn-button {          
+    margin: 20px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi di chuột qua nút */
+    height: auto;
+}
+.cn-button:hover{
+    background-color: darkblue;
+}
+
+.main h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px 20px 10px;
+}
+.main{
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.center-table {
+    position: absolute;
+    left: 4.375vw;
+    top:6.75vh;
+    bottom: 2.5vh;
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Điều này làm cho div chứa bảng căn giữa theo chiều dọc trên màn hình */
+    width: 70%; /* Kích thước tối đa của div chứa bảng */
+    overflow: auto; /* Cho phép trượt nếu bảng vượt quá kích thước */
+}
+.custom-class {
+    background-color: #1161d8; /* Màu nền xanh dương cho hàng đầu tiên */
+    color: white; /* Màu chữ trắng cho hàng đầu tiên */
+}
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0.5vh 0.5vw;
+    border-color: black;
+}
+.MK{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+}
+.img {
+    max-width: 20.75vw;
+    max-height: 20.5vh;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 300px; 
+    overflow-y: auto;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ------------------- */
+.sua{
+    margin: 20px;
+}
+.sua h2{
+    margin-bottom: 20px;
+}
+.form label{
+    font-family:Arial;
+    font-size: 20px;
+    width: 100px;
+    
+}
+
+.form button{
+    margin-right: 50px;
+}
+
+.form > .tbl1{
+    position: relative;
+}
+.tbl1 tr td {
+    border: none;
+    padding: 0px;
+}
+
+select {
+    font-size: 17px;
+    padding: 10px;
+
+    line-height: 16px;
+    margin: 10px;
+}
+
+.sex{
+    font-family:Arial;
+    font-size: 20px;
+    width: 30px;
+}
+
+.inp{
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 5px 5px;
+    line-height: 16px;
+    margin: 5px;
+}
+
+

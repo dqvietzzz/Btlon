@@ -1,0 +1,421 @@
+/* line 1, Sell_index.scss */
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+/* line 8, Sell_index.scss */
+* .main-header--top .content {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 40px;
+    background-color: #E30019;
+    height          : 80px;
+}
+
+/* line 16, Sell_index.scss */
+* .main-header--top .content .logo {
+    width : 150px;
+    height: 70px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* line 22, Sell_index.scss */
+* .main-header--top .content .search {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    padding         : 10px;
+    background-color: white;
+    border-radius   : 5px;
+    height          : 20px;
+    margin          : 0px 10px 0px 1 0px;
+    margin-left     : 20px;
+}
+
+/* line 34, Sell_index.scss */
+* .main-header--top .content .search input {
+    height : 30px;
+    border : none;
+    width  : 300px;
+    outline: none;
+}
+
+/* line 41, Sell_index.scss */
+* .main-header--top .content .search img {
+    background-color: white;
+    width           : 30px;
+}
+
+/* line 47, Sell_index.scss */
+* .main-header--top .content .contact {
+    color       : white;
+    padding-left: 20px;
+}
+
+/* line 50, Sell_index.scss */
+* .main-header--top .content .contact a {
+    color          : white;
+    text-decoration: none;
+    font-family    : Arial, Helvetica, sans-serif;
+    font-family    : "Open Sans", sans-serif;
+    font-size      : 16px;
+}
+
+/* line 61, Sell_index.scss */
+* .main-header--top .content .cart {
+    position       : relative;
+    width          : 100px;
+    height         : 50px;
+    line-height    : 66px;
+    border-radius  : 3px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin         : 0px 20px 0px 20px;
+    font-family    : "Open Sans", sans-serif;
+    font-size      : 16px;
+}
+
+/* line 74, Sell_index.scss */
+* .main-header--top .content .cart img {
+    width: 30px;
+}
+
+/* line 78, Sell_index.scss */
+* .main-header--top .content .cart a {
+    text-decoration: none;
+    color          : white;
+}
+
+/* line 83, Sell_index.scss */
+* .main-header--top .content .cart .cart-countItem {
+    position        : absolute;
+    width           : 20px;
+    height          : 20px;
+    border-radius   : 50px;
+    background-color: #f6f627;
+    top             : 3px;
+    right           : 66px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+/* line 98, Sell_index.scss */
+* .main-header--top .content .login {
+    background-color: #BE1529;
+    width           : 130px;
+    height          : 50px;
+    line-height     : 50px;
+    border-radius   : 5px;
+    display         : flex;
+    padding         : 0px 5px 0px 5px;
+    align-items     : center;
+    position        : relative;
+}
+
+/* line 109, Sell_index.scss */
+* .main-header--top .content .login .login:hover+.form_login {
+    display: flex;
+}
+
+/* line 114, Sell_index.scss */
+* .main-header--top .content .login .form_login:hover+.form_login {
+    display: flex;
+}
+
+/* line 118, Sell_index.scss */
+* .main-header--top .content .login .form_login:hover {
+    display: flex;
+}
+
+/* line 122, Sell_index.scss */
+* .main-header--top .content .login .triangle:hover+.form_login {
+    display: flex;
+}
+
+/* line 128, Sell_index.scss */
+* .main-header--top .content .login img {
+    height: 30px;
+}
+
+/* line 132, Sell_index.scss */
+* .main-header--top .content .login a {
+    text-decoration: none;
+    color          : white;
+    font-family    : Arial, Helvetica, sans-serif;
+    font-size      : 16px;
+}
+
+/* line 139, Sell_index.scss */
+* .main-header--top .content .login div.form_login {
+    width           : 350px;
+    height          : 120px;
+    background-color: white;
+    position        : absolute;
+    top             : 60px;
+    right           : 0px;
+    background-color: white;
+    display         : none;
+    justify-content : space-around;
+    align-items     : center;
+    border-radius   : 5px;
+    border          : 1px gray solid;
+    z-index         : 10px;
+}
+
+/* line 158, Sell_index.scss */
+* .main-header--top .content .login div.form_login .triangle {
+    width        : 0;
+    height       : 0;
+    border-left  : 30px solid transparent;
+    border-right : 30px solid transparent;
+    border-bottom: 30px solid white;
+    position     : absolute;
+    right        : 30px;
+    top          : -10px;
+    margin-left  : 100px;
+}
+
+/* line 170, Sell_index.scss */
+* .main-header--top .content .login div.form_login .txtHi {
+    position: absolute;
+    top     : -7px;
+    right   : 120px;
+}
+
+/* line 176, Sell_index.scss */
+* .main-header--top .content .login div.form_login .btn_login {
+    background-color: black;
+    color           : white;
+    font-family     : Arial, Helvetica, sans-serif;
+    font-size       : 16px;
+    width           : 100px;
+    height          : 30px;
+    border          : none;
+    border-radius   : 5px;
+}
+
+/* line 187, Sell_index.scss */
+* .main-header--top .content .login div.form_login .btn_signin {
+    background-color: white;
+    color           : black;
+    font-family     : Arial, Helvetica, sans-serif;
+    font-size       : 16px;
+    width           : 100px;
+    height          : 30px;
+    border          : none;
+    border          : black 2px solid;
+    border-radius   : 5px;
+}
+
+/* line 205, Sell_index.scss */
+* .main-body {
+    background-color: #CFCFCF;
+    width           : 100vw;
+    height          : 1000px;
+    display         : flex;
+    padding-top     : 10px;
+    justify-content : center;
+}
+
+/* line 213, Sell_index.scss */
+* .main-body div.nav {
+    height          : fit-content;
+    background-color: white;
+    border-radius   : 5px;
+}
+
+/* line 220, Sell_index.scss */
+* .main-body div.nav ul.nav {
+    list-style-type: none;
+    width          : 200px;
+}
+
+/* line 225, Sell_index.scss */
+* .main-body div.nav ul.nav li.nav {
+    height        : 30px;
+    line-height   : 30px;
+    display       : flex;
+    padding-top   : 3px;
+    padding-bottom: 3px;
+    font-family   : "SF Pro Display", 'Arial', sans-serif;
+    font-size     : 13px;
+    font-weight   : 550;
+}
+
+/* line 235, Sell_index.scss */
+* .main-body div.nav ul.nav li.nav img {
+    width       : 30px;
+    margin-right: 20px;
+    margin-left : 10px;
+}
+
+/* line 243, Sell_index.scss */
+* .main-body div.nav ul.nav li.nav:hover {
+    filter          : invert(100%);
+    background-color: cyan;
+    cursor          : pointer;
+}
+
+/* line 252, Sell_index.scss */
+* .main-body .list-item {
+    height          : 400px;
+    width           : 1000px;
+    background-color: #be73ff;
+    height          : fit-content;
+    margin-left     : 20px;
+    display         : flex;
+    flex-wrap       : wrap;
+    align-content   : flex-start;
+    justify-content : space-evenly;
+    padding-top     : 20px;
+}
+
+/* line 264, Sell_index.scss */
+* .main-body .list-item .item {
+    width           : 200px;
+    background-color: white;
+    padding         : 5px;
+    padding-top     : 10px;
+    padding-bottom  : 10px;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    flex-direction  : column;
+    border-radius   : 5px;
+    margin          : 5px;
+}
+
+/* line 278, Sell_index.scss */
+* .main-body .list-item .item img {
+    width        : 150px;
+    height       : 150px;
+    margin-bottom: 20px;
+}
+
+/* line 284, Sell_index.scss */
+* .main-body .list-item .item .title {
+    font-size      : smaller;
+    font-family    : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow       : hidden;
+    width          : 200px;
+    height         : 50px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    text-align     : center;
+    font-size      : 14px;
+    font-weight    : 700;
+}
+
+/* line 298, Sell_index.scss */
+* .main-body .list-item .item .price {
+    font-family  : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size    : large;
+    margin-bottom: 10px;
+}
+
+/* line 304, Sell_index.scss */
+* .main-body .list-item .item .item-add {
+    border          : none;
+    background-color: white;
+    cursor          : pointer;
+}
+
+/* line 315, Sell_index.scss */
+* .main-body ul.pagination {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    list-style-type : none;
+    background-color: #BE1529;
+    margin-left     : 20px;
+}
+
+/* line 324, Sell_index.scss */
+* .main-body ul.pagination li a {
+    color          : black;
+    float          : left;
+    padding        : 8px 16px;
+    text-decoration: none;
+}
+
+/* line 333, Sell_index.scss */
+* .main-body ul.pagination .pagination a.active {
+    background-color: #4CAF50;
+    color           : white;
+}
+
+.item {
+    width       : 70%;
+    height      : 500px;
+    margin-left : auto;
+    margin-right: auto;
+    margin-top  : 50px;
+
+    display       : flex;
+    flex-direction: row;
+}
+
+.item .content {
+    margin-left: 50px;
+
+}
+
+.title {
+    font-size    : 30px;
+    margin-bottom: 20px;
+    margin-top   : 20px;
+}
+
+.gia,
+.ncc,
+.danhmuc {
+    font-size    : 20px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 500px;
+}
+
+* .main-header--top .content .login {
+    background-color: #BE1529;
+    width           : fit-content;
+    height          : 50px;
+    line-height     : 50px;
+    border-radius   : 5px;
+    display         : flex;
+    padding         : 0px 5px 0px 5px;
+    align-items     : center;
+    position        : relative;
+}
+
+.item-add {
+    width           : 250px;
+    height          : 50px;
+    border          : none;
+    background-color: #E30019;
+    color           : white;
+    font-size       : 20px;
+}
+
+form.item {
+    border: none;
+
+}
+
+.backtohome {
+    width           : 200px;
+    height          : 50px;
+    background-color: #E30019;
+    color           : white;
+    border          : none;
+    margin-top      : 20px;
+    margin-left     : 30px;
+
+}
